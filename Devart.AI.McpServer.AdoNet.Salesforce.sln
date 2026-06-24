@@ -1,0 +1,62 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.2.11415.280
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+		nuget.config = nuget.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Devart.AI.McpServer", "Devart.AI.McpServer\Devart.AI.McpServer.csproj", "{51478E82-3D60-4659-BAB7-73D1E4254A2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Devart.AI.McpServer.AdoNet", "Devart.AI.McpServer.AdoNet\Devart.AI.McpServer.AdoNet\Devart.AI.McpServer.AdoNet.csproj", "{18953FB3-0CB3-4959-9028-6EE90DA7B2D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Devart.AI.McpServer.AdoNet.Salesforce", "Devart.AI.McpServer.AdoNet\Devart.AI.McpServer.AdoNet.Salesforce\Devart.AI.McpServer.AdoNet.Salesforce.csproj", "{471AD9CD-5F61-4BFA-B0EA-9FD47345BC00}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		DebugSalesforce|Any CPU = DebugSalesforce|Any CPU
+		DebugSalesforce|x86 = DebugSalesforce|x86
+		ReleaseSalesforce|Any CPU = ReleaseSalesforce|Any CPU
+		ReleaseSalesforce|x86 = ReleaseSalesforce|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51478E82-3D60-4659-BAB7-73D1E4254A2A}.DebugSalesforce|Any CPU.ActiveCfg = Debug|Any CPU
+		{51478E82-3D60-4659-BAB7-73D1E4254A2A}.DebugSalesforce|Any CPU.Build.0 = Debug|Any CPU
+		{51478E82-3D60-4659-BAB7-73D1E4254A2A}.DebugSalesforce|x86.ActiveCfg = Debug|x86
+		{51478E82-3D60-4659-BAB7-73D1E4254A2A}.DebugSalesforce|x86.Build.0 = Debug|x86
+		{51478E82-3D60-4659-BAB7-73D1E4254A2A}.ReleaseSalesforce|Any CPU.ActiveCfg = Release|Any CPU
+		{51478E82-3D60-4659-BAB7-73D1E4254A2A}.ReleaseSalesforce|Any CPU.Build.0 = Release|Any CPU
+		{51478E82-3D60-4659-BAB7-73D1E4254A2A}.ReleaseSalesforce|x86.ActiveCfg = Release|x86
+		{51478E82-3D60-4659-BAB7-73D1E4254A2A}.ReleaseSalesforce|x86.Build.0 = Release|x86
+		{18953FB3-0CB3-4959-9028-6EE90DA7B2D4}.DebugSalesforce|Any CPU.ActiveCfg = Debug|Any CPU
+		{18953FB3-0CB3-4959-9028-6EE90DA7B2D4}.DebugSalesforce|Any CPU.Build.0 = Debug|Any CPU
+		{18953FB3-0CB3-4959-9028-6EE90DA7B2D4}.DebugSalesforce|x86.ActiveCfg = Debug|x86
+		{18953FB3-0CB3-4959-9028-6EE90DA7B2D4}.DebugSalesforce|x86.Build.0 = Debug|x86
+		{18953FB3-0CB3-4959-9028-6EE90DA7B2D4}.ReleaseSalesforce|Any CPU.ActiveCfg = Release|Any CPU
+		{18953FB3-0CB3-4959-9028-6EE90DA7B2D4}.ReleaseSalesforce|Any CPU.Build.0 = Release|Any CPU
+		{18953FB3-0CB3-4959-9028-6EE90DA7B2D4}.ReleaseSalesforce|x86.ActiveCfg = Release|x86
+		{18953FB3-0CB3-4959-9028-6EE90DA7B2D4}.ReleaseSalesforce|x86.Build.0 = Release|x86
+		{471AD9CD-5F61-4BFA-B0EA-9FD47345BC00}.DebugSalesforce|Any CPU.ActiveCfg = DebugSalesforce|Any CPU
+		{471AD9CD-5F61-4BFA-B0EA-9FD47345BC00}.DebugSalesforce|Any CPU.Build.0 = DebugSalesforce|Any CPU
+		{471AD9CD-5F61-4BFA-B0EA-9FD47345BC00}.DebugSalesforce|x86.ActiveCfg = DebugSalesforce|x86
+		{471AD9CD-5F61-4BFA-B0EA-9FD47345BC00}.DebugSalesforce|x86.Build.0 = DebugSalesforce|x86
+		{471AD9CD-5F61-4BFA-B0EA-9FD47345BC00}.ReleaseSalesforce|Any CPU.ActiveCfg = ReleaseSalesforce|Any CPU
+		{471AD9CD-5F61-4BFA-B0EA-9FD47345BC00}.ReleaseSalesforce|Any CPU.Build.0 = ReleaseSalesforce|Any CPU
+		{471AD9CD-5F61-4BFA-B0EA-9FD47345BC00}.ReleaseSalesforce|x86.ActiveCfg = ReleaseSalesforce|x86
+		{471AD9CD-5F61-4BFA-B0EA-9FD47345BC00}.ReleaseSalesforce|x86.Build.0 = ReleaseSalesforce|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {456EC27D-1D60-470B-A266-44E164F5B06E}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Version\Version.projitems*{18953fb3-0cb3-4959-9028-6ee90da7b2d4}*SharedItemsImports = 5
+		Version\Version.projitems*{51478e82-3d60-4659-bab7-73d1e4254a2a}*SharedItemsImports = 5
+	EndGlobalSection
+EndGlobal
